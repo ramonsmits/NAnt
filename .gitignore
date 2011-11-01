@@ -1,0 +1,6 @@
+*.user
+*.suo
+obj/
+bin/
+build.VS.NET
+src/*/NAnt.*.xml
