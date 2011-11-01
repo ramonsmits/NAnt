@@ -1,371 +1,298 @@
-<VisualStudioProject>
-    <CSHARP
-        ProjectType = "Local"
-        ProductVersion = "7.0.9466"
-        SchemaVersion = "1.0"
-        ProjectGuid = "{DD434690-B4DF-4BF9-91FE-F139A41E2474}"
-    >
-        <Build>
-            <Settings
-                ApplicationIcon = ""
-                AssemblyKeyContainerName = ""
-                AssemblyName = "NAnt.VSNetTasks"
-                AssemblyOriginatorKeyFile = ""
-                DefaultClientScript = "JScript"
-                DefaultHTMLPageLayout = "Grid"
-                DefaultTargetSchema = "IE50"
-                DelaySign = "false"
-                OutputType = "Library"
-                RootNamespace = "NAnt.VSNet"
-                StartupObject = ""
-            >
-                <Config
-                    Name = "Debug"
-                    AllowUnsafeBlocks = "false"
-                    BaseAddress = "285212672"
-                    CheckForOverflowUnderflow = "false"
-                    ConfigurationOverrideFile = ""
-                    DefineConstants = ""
-                    DocumentationFile = "NAnt.VSNet.xml"
-                    DebugSymbols = "true"
-                    FileAlignment = "4096"
-                    IncrementalBuild = "false"
-                    NoWarn = "1591"
-                    Optimize = "false"
-                    OutputPath = "..\..\build.VS.NET\NAnt.VSNet\"
-                    RegisterForComInterop = "false"
-                    RemoveIntegerChecks = "false"
-                    TreatWarningsAsErrors = "true"
-                    WarningLevel = "4"
-                />
-                <Config
-                    Name = "Debug Main NAnt BuildFile"
-                    AllowUnsafeBlocks = "false"
-                    BaseAddress = "285212672"
-                    CheckForOverflowUnderflow = "false"
-                    ConfigurationOverrideFile = ""
-                    DefineConstants = ""
-                    DocumentationFile = ""
-                    DebugSymbols = "true"
-                    FileAlignment = "4096"
-                    IncrementalBuild = "false"
-                    Optimize = "false"
-                    OutputPath = "..\..\build.VS.NET\NAnt.VSNet\"
-                    RegisterForComInterop = "false"
-                    RemoveIntegerChecks = "false"
-                    TreatWarningsAsErrors = "true"
-                    WarningLevel = "4"
-                />
-            </Settings>
-            <References>
-                <Reference
-                    Name = "mscorlib"
-                    AssemblyName = "mscorlib"
-                />
-                <Reference
-                    Name = "System"
-                    AssemblyName = "System"
-                />
-                <Reference
-                    Name = "NAnt.Core"
-                    Project = "{8F5F8375-4097-4952-B860-784EB9961ABE}"
-                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
-                />
-                <Reference
-                    Name = "System.XML"
-                    AssemblyName = "System.Xml"
-                />
-                <Reference
-                    Name = "NAnt.Win32Tasks"
-                    Project = "{C66545A2-6FEC-4A38-937A-5B25E61EE8A1}"
-                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
-                />
-                <Reference
-                    Name = "NAnt.DotNetTasks"
-                    Project = "{B50A1067-785B-4686-8FFC-5AF424BEF163}"
-                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
-                />
-                <Reference
-                    Name = "NAnt.VisualCpp"
-                    Project = "{A154DB17-7263-44E3-838E-1E4C4946B7D8}"
-                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
-                />
-            </References>
-        </Build>
-        <Files>
-            <Include>
-                <File
-                    RelPath = "AssemblyInfo.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "AssemblyReferenceBase.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "CommonAssemblyInfo.cs"
-                    Link = "..\CommonAssemblyInfo.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Configuration.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "ConfigurationBase.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "ConfigurationDictionary.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "ConfigurationMap.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "ConfigurationSettings.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "CSharpProject.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "CSharpProjectProvider.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "FileReferenceBase.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "GenericSolution.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "JSharpProject.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "JSharpProjectProvider.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "ManagedAssemblyReference.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "ManagedProjectBase.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "ManagedProjectReference.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "ManagedWrapperReference.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "NAnt.VSNet.build"
-                    BuildAction = "None"
-                />
-                <File
-                    RelPath = "ProjectBase.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "ProjectEntry.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "ProjectFactory.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "ProjectReferenceBase.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "ProjectSettings.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "ReferenceBase.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "ReferencesResolver.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Resource.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "SolutionBase.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "SolutionFactory.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "VBProject.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "VBProjectProvider.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "VcArgumentMap.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "VcAssemblyReference.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "VcConfigurationBase.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "VcFileConfiguration.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "VcProject.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "VcProjectConfiguration.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "VCProjectProvider.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "VcProjectReference.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "VcWrapperReference.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "WebDavClient.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "WrapperReferenceBase.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Everett\Solution.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Everett\SolutionProvider.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Extensibility\IProjectBuildProvider.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Extensibility\ISolutionBuildProvider.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Rainier\Solution.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Rainier\SolutionProvider.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Tasks\SolutionTask.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Types\UseOfATL.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Types\UseOfMFC.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Types\UsePrecompiledHeader.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Types\WebMap.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Types\WebMapCollection.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-            </Include>
-        </Files>
-    </CSHARP>
-</VisualStudioProject>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DD434690-B4DF-4BF9-91FE-F139A41E2474}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>NAnt.VSNetTasks</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NAnt.VSNet</RootNamespace>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <PublishUrl>http://localhost/NAnt.VSNetTasks/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\build.VS.NET\NAnt.VSNet\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DocumentationFile>NAnt.VSNet.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoWarn>1591</NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug Main NAnt BuildFile|AnyCPU' ">
+    <OutputPath>..\..\build.VS.NET\NAnt.VSNet\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NAnt.Core\NAnt.Core.csproj">
+      <Name>NAnt.Core</Name>
+      <Project>{8F5F8375-4097-4952-B860-784EB9961ABE}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\NAnt.DotNet\NAnt.DotNet.csproj">
+      <Name>NAnt.DotNetTasks</Name>
+      <Project>{B50A1067-785B-4686-8FFC-5AF424BEF163}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\NAnt.VisualCpp\NAnt.VisualCpp.csproj">
+      <Name>NAnt.VisualCpp</Name>
+      <Project>{A154DB17-7263-44E3-838E-1E4C4946B7D8}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\NAnt.Win32\NAnt.Win32.csproj">
+      <Name>NAnt.Win32Tasks</Name>
+      <Project>{C66545A2-6FEC-4A38-937A-5B25E61EE8A1}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <Reference Include="mscorlib">
+      <Name>mscorlib</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\CommonAssemblyInfo.cs">
+      <Link>CommonAssemblyInfo.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyReferenceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ConfigurationBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ConfigurationDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ConfigurationMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ConfigurationSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CSharpProject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CSharpProjectProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Everett\Solution.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Everett\SolutionProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Extensibility\IProjectBuildProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Extensibility\ISolutionBuildProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileReferenceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GenericSolution.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JSharpProject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JSharpProjectProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ManagedAssemblyReference.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ManagedProjectBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ManagedProjectReference.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ManagedWrapperReference.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectEntry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectReferenceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rainier\Solution.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rainier\SolutionProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReferenceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReferencesResolver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SolutionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SolutionFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tasks\SolutionTask.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Types\UseOfATL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Types\UseOfMFC.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Types\UsePrecompiledHeader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Types\WebMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Types\WebMapCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VBProject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VBProjectProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VcArgumentMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VcAssemblyReference.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VcConfigurationBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VcFileConfiguration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VcProject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VcProjectConfiguration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VCProjectProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VcProjectReference.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VcWrapperReference.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebDavClient.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WrapperReferenceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="NAnt.VSNet.build" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>
